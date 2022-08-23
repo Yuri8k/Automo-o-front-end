@@ -1,0 +1,16 @@
+@import "header";
+@import "m-banners";
+@import "home";
+@import "menu-mobile";
+@import "footer";
+
+body, ul, li, h1, h2, h3, p, span, i, figure, img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: $font-base;
+}
+
+* {
+    box-sizing: border-box;
+}

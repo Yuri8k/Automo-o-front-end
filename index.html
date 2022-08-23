@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/bootstrap-grid.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>gulp</title>
+</head>
+<body>
+
+    <div class="item__card_add">Adicionado ao carrinho</div>
+
+    <main class="main-header"></main>
+
+    <header class="d-block d-lg-none header-mobile">
+        <section class="container">
+            <div class="first-bar">
+                <div class="header">
+                    <span class="nav-mobile"></span>
+                    <i class="logo"></i>
+                    <ul class="content">
+                        <li class="content__heart"></li>
+                        <li class="content__card">
+                            <span class="content__card__qtd">0</span>
+                        </li>
+                    </ul>
+                </div>
+                <form action="form" class="form">
+                    <input type="text" placeholder="O que você procura?">
+                    <button class="btn-search"><i class="btn-search-icon"></i></button>
+                </form>
+            </div>
+        </section>
+    </header>
+
+    <section class="menu-mobile d-lg-none">
+        <span class="close-menu-mobile"></span>
+        <div class="menu-mobile__content">
+            <header class="header">
+                <div class="profile">
+                    <i class="profile__icon"></i>
+                    <span class="profile__text">Minha Conta</span>
+                </div>
+            </header>
+            <div class="content">
+                <ul>
+                    <li>Cabelos</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Maquiagens</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Unhas</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Depilação e Estética</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Eletros</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Higiene Corporal</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Profissional</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Dermocosméticos</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Infantil</li>
+                    <i class="arows"></i>
+                </ul>
+                <ul>
+                    <li>Mulher</li>
+                    <i class="arows"></i>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <main class="header-desk d-none d-lg-block">
+        <header>
+            <section class="container">
+                <div class="first-bar">
+                    <div class="header">
+                        <i class="logo"></i>
+                        <form action="form" class="form">
+                            <input type="text" placeholder="O que você procura?">
+                            <button class="btn-search"><i class="btn-search-icon"></i></button>
+                        </form>
+                        <ul class="content">
+                            <li class="content__heart"></li>
+                            <li class="content__profile">
+                                <ul class="nav-menu">
+                                    <li class="nav-menu__item">Login</li>
+                                    <li class="nav-menu__item">Cadastre-se</li>
+                                    <li class="nav-menu__item">Minha Conta</li>
+                                    <li class="nav-menu__item">Favoritos</li>
+                                </ul>
+                            </li>
+                            <li class="content__card">
+                                <span class="content__card__qtd-desk">0</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <section class="category d-none d-lg-block">
+            <div class="container">
+                <ul class="category__nav">
+                    <li class="category__nav__item">Cabelos
+                        <div class="sub-category">
+                            <div class="sub-category__content">
+                                <div class="sub-category__text">
+                                    <ul>
+                                        <li>Acessórios</li>
+                                        <li>Alisamento e Relaxamento</li>
+                                        <li>Apliques</li>
+                                        <li>Coloração</li>
+                                        <li>Condicionador</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Descolorantes</li>
+                                        <li>Escovas e Pentes</li>
+                                        <li>Finalizadores</li>
+                                        <li>Fixadores</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Fluidos</li>
+                                        <li>Hidratação</li>
+                                        <li>Shampoo</li>
+                                        <li>Tônicos Capilares</li>
+                                    </ul>
+                                </div>
+                                <figure class="sub-category__img">
+                                    <img src="images/sub-categoria-1.png" alt="img">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="category__nav__item">Maquiagens
+                        <div class="sub-category">
+                            <div class="sub-category__content">
+                                <div class="sub-category__text">
+                                    <ul>
+                                        <li>Acessórios</li>
+                                        <li>Alisamento e Relaxamento</li>
+                                        <li>Apliques</li>
+                                        <li>Coloração</li>
+                                        <li>Condicionador</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Descolorantes</li>
+                                        <li>Escovas e Pentes</li>
+                                        <li>Finalizadores</li>
+                                        <li>Fixadores</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Fluidos</li>
+                                        <li>Hidratação</li>
+                                        <li>Shampoo</li>
+                                        <li>Tônicos Capilares</li>
+                                    </ul>
+                                </div>
+                                <figure class="sub-category__img">
+                                    <img src="images/sub-categoria-2.png" alt="img">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="category__nav__item">Unhas
+                        <div class="sub-category">
+                            <div class="sub-category__content">
+                                <div class="sub-category__text">
+                                    <ul>
+                                        <li>Acessórios</li>
+                                        <li>Alisamento e Relaxamento</li>
+                                        <li>Apliques</li>
+                                        <li>Coloração</li>
+                                        <li>Condicionador</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Descolorantes</li>
+                                        <li>Escovas e Pentes</li>
+                                        <li>Finalizadores</li>
+                                        <li>Fixadores</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Fluidos</li>
+                                        <li>Hidratação</li>
+                                        <li>Shampoo</li>
+                                        <li>Tônicos Capilares</li>
+                                    </ul>
+                                </div>
+                                <figure class="sub-category__img">
+                                    <img src="images/sub-categoria-3.png" alt="img">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="category__nav__item">Depilação e Estética
+                        <div class="sub-category">
+                            <div class="sub-category__content">
+                                <div class="sub-category__text">
+                                    <ul>
+                                        <li>Acessórios</li>
+                                        <li>Alisamento e Relaxamento</li>
+                                        <li>Apliques</li>
+                                        <li>Coloração</li>
+                                        <li>Condicionador</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Descolorantes</li>
+                                        <li>Escovas e Pentes</li>
+                                        <li>Finalizadores</li>
+                                        <li>Fixadores</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Fluidos</li>
+                                        <li>Hidratação</li>
+                                        <li>Shampoo</li>
+                                        <li>Tônicos Capilares</li>
+                                    </ul>
+                                </div>
+                                <figure class="sub-category__img">
+                                    <img src="images/sub-categoria-4.png" alt="img">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="category__nav__item">Eletros
+                        <div class="sub-category">
+                            <div class="sub-category__content">
+                                <div class="sub-category__text">
+                                    <ul>
+                                        <li>Acessórios</li>
+                                        <li>Alisamento e Relaxamento</li>
+                                        <li>Apliques</li>
+                                        <li>Coloração</li>
+                                        <li>Condicionador</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Descolorantes</li>
+                                        <li>Escovas e Pentes</li>
+                                        <li>Finalizadores</li>
+                                        <li>Fixadores</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Fluidos</li>
+                                        <li>Hidratação</li>
+                                        <li>Shampoo</li>
+                                        <li>Tônicos Capilares</li>
+                                    </ul>
+                                </div>
+                                <figure class="sub-category__img">
+                                    <img src="images/sub-categoria-5.png" alt="img">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="category__nav__item">Higiene Corporal
+                        <div class="sub-category">
+                            <div class="sub-category__content">
+                                <div class="sub-category__text">
+                                    <ul>
+                                        <li>Acessórios</li>
+                                        <li>Alisamento e Relaxamento</li>
+                                        <li>Apliques</li>
+                                        <li>Coloração</li>
+                                        <li>Condicionador</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Descolorantes</li>
+                                        <li>Escovas e Pentes</li>
+                                        <li>Finalizadores</li>
+                                        <li>Fixadores</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Fluidos</li>
+                                        <li>Hidratação</li>
+                                        <li>Shampoo</li>
+                                        <li>Tônicos Capilares</li>
+                                    </ul>
+                                </div>
+                                <figure class="sub-category__img">
+                                    <img src="images/sub-categoria-6.png" alt="img">
+                                </figure>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <section class="banner-home d-none d-lg-block">
+        <div id="js-banner-carrousel">
+            <figure>
+                <img src="images/banner-desktop-1.png" alt="ruiva">
+            </figure>
+            <figure>
+                <img src="images/banner-desktop-2.png" alt="azul">
+            </figure>
+            <figure>
+                <img src="images/banner-desktop-3.png" alt="rosa">
+            </figure>
+            <figure>
+                <img src="images/banner-desktop-4.png" alt="roxo">
+            </figure>
+        </div>
+    </section>
+
+    <section class="banner-home d-block d-lg-none">
+        <div id="js-banner-carrousel-mobile">
+            <figure>
+                <img src="images/banner-mobile-1.png" alt="ruiva">
+            </figure>
+            <figure>
+                <img src="images/banner-mobile-2.png" alt="azul">
+            </figure>
+            <figure>
+                <img src="images/banner-mobile-3.png" alt="rosa">
+            </figure>
+            <figure>
+                <img src="images/banner-mobile-4.png" alt="roxo">
+            </figure>
+        </div>
+    </section>
+
+    <section class="faixa-comunicado">
+        <div class="container p-0">
+            <div class="range" id="js-range-carrousel">
+                <div class="content">
+                    <figure>
+                        <img src="/svgs/card.svg" alt="">
+                    </figure>
+                    <span class="content__text">
+                        <p>Toda a loja em</p>
+                        <b>6x sem juros</b>
+                    </span>
+                </div>
+                <div class="content">
+                    <figure>
+                        <img src="/svgs/bau.svg" alt="">
+                    </figure>
+                    <span class="content__text">
+                        <p>Produtos a</p> 
+                        <b>Pronta entrega</b>
+                    </span>
+                </div>
+                <div class="content">
+                    <figure>
+                        <img class="arrow" src="/svgs/fi-rr-lock 1.svg" alt="">
+                    </figure>
+                    <span class="content__text">
+                        <p>Compra</p>
+                        <b>Segura</b>
+                    </span>
+                </div>
+                <div class="content">
+                    <figure>
+                        <img src="/svgs/frete.svg" alt="">
+                    </figure>
+                    <span class="content__text">
+                        <b>Frete Grátis</b>
+                        <p>para todo o Brasil</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container p-0">
+        <div class="product-list" id="js-carrousel-products">
+            <figure>
+                <img src="images/product-list-1.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-2.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-3.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-4.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-5.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-6.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">     
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-7.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section class="d-lg-none d-block">
+        <div class="first-banner-mobile">
+            <figure>
+                <img src="images/banner-vermelho.png" alt="">
+            </figure>
+            <div class="first-banner-mobile__content">
+                <h1>qualidade nos detalhes</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec, at egestas pellentesque maecenas dui mi, nisl. Augue diam, quis non non egestas amet. Tellus rutrum ac posuere morbi id. Iaculis nulla sed eu ultrices adipiscing enim quam. Ac quis ante risus massa.</p>
+            </div>
+            <figure>
+                <img src="images/fisrt-banner.png" alt="">
+            </figure>
+            <div class="first-banner-mobile__content">
+                <h1>design único</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec, at egestas pellentesque maecenas dui mi, nisl. Augue diam, quis non non egestas amet. Tellus rutrum ac posuere morbi id. Iaculis nulla sed eu ultrices adipiscing enim quam. Ac quis ante risus massa.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-lg-block d-none">
+        <div class="first-banner-content">
+            <div class="first-banner">
+                <figure class="first-figure">
+                    <img src="images/banner-vermelhor-grande.png" alt="">
+                </figure>
+                <div class="first-banner__content">
+                    <h1>qualidade nos detalhes</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec, at egestas pellentesque maecenas dui mi, nisl. Augue diam, quis non non egestas amet. Tellus rutrum ac posuere morbi id. Iaculis nulla sed eu ultrices adipiscing enim quam. Ac quis ante risus massa.</p>
+                </div>
+            </div>
+            <div class="first-banner">
+                <figure>
+                    <img src="images/first-banner-grande.png" alt="">
+                </figure>
+                <div class="first-banner__content">
+                    <h1>design único</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec, at egestas pellentesque maecenas dui mi, nisl. Augue diam, quis non non egestas amet. Tellus rutrum ac posuere morbi id. Iaculis nulla sed eu ultrices adipiscing enim quam. Ac quis ante risus massa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container p-0">
+        <div class="product-list" id="js-carrousel-products2">
+            <figure>
+                <img src="images/product-list-8.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-9.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-10.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-11.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-12.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-13.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">     
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+
+            <figure>
+                <img src="images/product-list-14.png" alt="">
+                <div class="content-box">
+                    <i class="logo"></i>
+                    <p class="title">Camiseta Feminina</p>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <i class="open-details"></i>
+                </div>
+                <div class="content-box-detail">
+                    <i class="close-detail"></i>
+                    <i class="logo"></i>
+                    <h1>Camiseta Feminina</h1>
+                    <div class="price">
+                        <span class="price--of">R$149,90</span>
+                        <span class="price--per">R$127,90</span>
+                    </div>
+                    <button class="btn-buy">Comprar</button>
+                </div>
+                <div class="tag-campaing">
+                    <span class="new">NEW</span>
+                </div>
+            </figure>
+        </div>
+    </section>
+
+    <section class="d-block d-lg-none banner-video-mobile">
+       <figure class="first-figure">
+            <img src="images/banner-video-2.png" alt="">
+       </figure>
+       <div id="js-opinion-mobile">
+        <div class="opinion">
+            <div class="star">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <h1 class="title">Espetacular!</h1>
+            <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+            <span class="name">
+                <p>Isabela F</p>
+                <p>Nova Friburgo/R</p>
+            </span>
+        </div>
+        <div class="opinion">
+            <div class="star">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <h1 class="title">Espetacular!</h1>
+            <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+            <span class="name">
+                <p>Isabela F</p>
+                <p>Nova Friburgo/R</p>
+            </span>
+        </div>
+        <div class="opinion">
+            <div class="star">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <h1 class="title">Espetacular!</h1>
+            <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+            <span class="name">
+                <p>Isabela F</p>
+                <p>Nova Friburgo/R</p>
+            </span>
+        </div>
+        <div class="opinion">
+            <div class="star">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <h1 class="title">Espetacular!</h1>
+            <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+            <span class="name">
+                <p>Isabela F</p>
+                <p>Nova Friburgo/R</p>
+            </span>
+        </div>
+        <div class="opinion">
+            <div class="star">
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+                <i></i>
+            </div>
+            <h1 class="title">Espetacular!</h1>
+            <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+            <span class="name">
+                <p>Isabela F</p>
+                <p>Nova Friburgo/R</p>
+            </span>
+        </div>
+    </div>
+       <figure class="second-figure">
+            <img src="images/banner-video.png" alt="">
+            <i class="youtube"></i>
+       </figure>
+    </section>
+
+    <section class="banner-video-desktop d-none d-lg-block">
+        <figure class="first-img">
+            <img src="images/banner-video-desktop.png" alt="">
+        </figure>
+        <div class="content">
+            <div id="js-opinion-desktop">
+                <div class="opinion">
+                    <div class="star">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <h1 class="title">Espetacular!</h1>
+                    <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+                    <span class="name">
+                        <p>Isabela F</p>
+                        <p>Nova Friburgo/R</p>
+                    </span>
+                </div>
+                <div class="opinion">
+                    <div class="star">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <h1 class="title">Espetacular!</h1>
+                    <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+                    <span class="name">
+                        <p>Isabela F</p>
+                        <p>Nova Friburgo/R</p>
+                    </span>
+                </div>
+                <div class="opinion">
+                    <div class="star">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <h1 class="title">Espetacular!</h1>
+                    <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+                    <span class="name">
+                        <p>Isabela F</p>
+                        <p>Nova Friburgo/R</p>
+                    </span>
+                </div>
+                <div class="opinion">
+                    <div class="star">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <h1 class="title">Espetacular!</h1>
+                    <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+                    <span class="name">
+                        <p>Isabela F</p>
+                        <p>Nova Friburgo/R</p>
+                    </span>
+                </div>
+                <div class="opinion">
+                    <div class="star">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </div>
+                    <h1 class="title">Espetacular!</h1>
+                    <p class="text">Espectacular.... Desde a navegação no site, até a entrega... Chegou em uma embalagem de primeiro mundo... Tudo em ordem</p>
+                    <span class="name">
+                        <p>Isabela F</p>
+                        <p>Nova Friburgo/R</p>
+                    </span>
+                </div>
+            </div>
+        <figure class="second-img">
+                <img src="images/banner-video-desktop-2.png" alt="">
+                <i class="youtube"></i>
+        </figure>
+        </div>
+    </section>
+
+    <section class="video_overlay">
+        <span class="close-video"></span>
+        <div class="responsive-iframe">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/1Aq9OJuS3ok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <section class="newsletter">
+            <h1 class="title">NEWSLETTER</h1>
+            <div class="content">
+                <p>Cadastre-se para receber nossas novidades e promoções!</p>
+                <input type="text" name="nome" placeholder="Nome:">
+                <input type="email" name="email" placeholder="E-mail:">
+                <button class="btn-search">Enviar</button>
+            </div>
+            <div class="modal-registration">
+                <figure class="modal-registration__status">
+                    <i></i>
+                </figure>
+                <h1 class="modal-registration__title">Sucesso</h1>
+                <p class="modal-registration__text">Obrigado por se cadastrar na nossa newsletter</p>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="content">
+                <i class="logo-footer"></i>
+                <p>Somos uma empresa apaixonada por cosméticos. Desde 1996, estamos trabalhando muito para que você encontre em nossas lojas, um mix de produtos inovadores, com a máxima qualidade e preço justo. Venha conhecer nossas lojas físicas, caso você esteja um pouco longe, desfrute de nosso canal virtual para realizar suas compras.</p>
+            </div>
+            <div class="content">
+                <h1 class="title">INSTITUCIONAL</h1>
+                <ul>
+                    <li>Nossa História</li>
+                    <li>Quem Somos</li>
+                    <li>Política de Privacidade</li>
+                </ul>
+                <div class="midia-sociais">
+                    <a href="https://www.facebook.com/yuri.oliveira.902819/">
+                        <i class="facebook"></i>
+                    </a>
+                    <a href="linkedin.com/in/yuri-oliveira-671b70213">
+                        <i class="linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                <h1 class="title">DÚVIDAS</h1>
+                <ul>
+                    <li>Fale conosco</li>
+                    <li>Dúvidas Frequentes</li>
+                    <li>Trocas e Devoluções</li>
+                    <li>Guia de Tamanhos</li>
+                    <li>Política de Entrega</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1 class="title">SUA CONTA</h1>
+                <ul>
+                    <li>Acesso ao painel</li>
+                    <li>Meus pedidos</li>
+                    <li>Meus dados</li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1 class="title">ATENDIMENTO</h1>
+                <ul>
+                    <li><i class="phonne"></i>(16) 99444-2223</li>
+                    <li class="whatsapp">(16) 99444-2223</li>
+                    <li class="email">enviosdejogos@hotmail.com</li>
+                </ul>
+                <li>
+                    Horário de atendimento:Segunda a Sexta: 8h às 11h e das 13h às 17hSáb, Dom e Feriados: Fechado.
+                </li>
+            </div>
+        </section>
+    </footer>
+
+    <section class="container">
+        <div class="paiments">
+            <div class="security">
+                <i class="ssl"></i>
+                <i class="google"></i>
+            </div>
+            <div class="pagamentos">
+                <i class="visa"></i>
+                <i class="diners"></i>
+                <i class="amex"></i>
+                <i class="mastercard"></i>
+                <i class="elo"></i>
+                <i class="pix"></i>
+                <i class="deposito"></i>
+            </div>
+            <div class="envios">
+                <i class="correios"></i>
+                <i class="smart-envios"></i>
+            </div>
+            <div class="shoppub">
+                <i></i>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/js/plugins.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
