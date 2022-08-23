@@ -200,6 +200,7 @@ if(newsletter) {
       modalRegistration.classList.add('sucess');
       modalNewsletter.classList.add('sucess');
       titleModal.textContent = 'Sucesso'
+      textModal.textContent = 'Obrigado por se cadastrat em nossa newsletter, em breve você receberá nossas melhores ofertase promoções exclusivas.'
       setTimeout(() => {
         modalNewsletter.classList.remove('active');
         modalRegistration.classList.remove('sucess');
