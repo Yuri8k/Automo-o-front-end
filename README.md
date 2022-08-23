@@ -1,1 +1,2 @@
 # Automo-o-front-end
+intenção deste projeto é mostrar um pouco das minhas skills, com Javacript, scss e HTML, também mostrar como configurar um gulp para uma automoção front-end, assim tudo ficando mais fácil e tornando possivel o uso do scss, gerando um arquivo compresso para o css normal, isso também ocorrendo com o javascript. Projeto construido com base em uma HOME de uma loja, porém alterada e pensada por min.
